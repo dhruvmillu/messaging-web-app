@@ -1,0 +1,16 @@
+.m-search,
+.searchState {
+  border: none;
+  outline: none;
+  padding: 30px;
+  margin: 20px;
+  font-size: 30px;
+  border-radius: 30px;
+  background: rgb(0, 0, 75);
+  color: white;
+  transition: 0.5s;
+}
+
+.m-search:focus {
+  border-radius: 20px;
+}

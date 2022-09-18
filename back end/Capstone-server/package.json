@@ -1,0 +1,27 @@
+{
+  "name": "capstone-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igris-sama/Capstone-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igris-sama/Capstone-server/issues"
+  },
+  "homepage": "https://github.com/igris-sama/Capstone-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15"
+  }
+}

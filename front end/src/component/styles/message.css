@@ -1,0 +1,32 @@
+.message-b{
+    margin:20px 20px;
+    padding:0 20px;
+    max-width:900px;
+    width:max-content;
+    display: flex;
+    align-items: top;
+    justify-content: end;
+}
+.message-b div .msg{
+    background-color: rgb(61, 61, 61);
+    padding: 10px;
+    border-radius: 10px;
+}
+.message-b div div{
+    background-color: rgb(61, 61, 61);
+    padding: 10px;
+    border-radius: 10px;
+}
+.message-b div p{
+    margin: 5px;
+}
+.message-b div .user{
+    color:rgb(0, 204, 255);
+    font-weight: 700;
+}
+.msg-profile-img{
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    object-fit: cover;
+}

@@ -1,0 +1,74 @@
+.form-holder{
+    height: 800px;
+    width:800px;
+    background-color:  rgb(95, 95, 95);
+    border-radius: 20px;
+    position: absolute;
+    padding: 0px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.form-holder form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.addProfilePic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+tr{
+    margin-bottom: 10px;
+}
+div.row{
+    margin-bottom: 16px;
+}
+
+.register-input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding:10px;
+    font-size: 20px;
+    width: 400px;
+}
+input[type="file"]{
+    display: none;
+}
+
+table{
+    border-spacing: 30px 50px;
+}
+td{
+    margin-left: 50px;
+}
+.label{
+    color: white;
+    font-size: 20px;
+}
+.picAdder{
+    border: none;
+    outline: none;
+    width:40px;
+    height: 40px;
+    background-color: rgb(43, 43, 43);
+    color:white;
+    border-radius: 50%;
+    position:relative;
+    left: 70%;
+    top:-12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.picAdder span{
+    font-weight: 900 ;
+}

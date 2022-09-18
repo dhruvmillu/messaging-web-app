@@ -1,0 +1,71 @@
+.anime-holder{
+    display: flex !important;
+    flex-direction: column;
+    height:100%;
+    width: 200%;
+    overflow:hidden
+}
+ .anime-info{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+}
+.anime-info div{
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+}
+
+.anime-cover{
+    margin: 20px;
+    width: 200px;
+    align-self: center;
+}
+
+.anime-title{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+.anime-title span{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.anime-synopsis{
+    font-size: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+.episode-container{
+    align-self: center;
+    height: 60vh;
+    width: 80%;
+    overflow-x: hidden;
+}
+.episode-list{
+    margin-bottom: 20px;
+    background-color: rgb(28, 0, 80);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.share-button{
+    cursor: pointer;
+}
+
+.epi-nav-buttons button{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 30px;
+    color:white;
+    margin: 20px;
+    background-color: rgb(7, 0, 102);
+    transition: 0.5s;
+}
+
+.epi-nav-buttons button:hover{
+    background-color: rgb(49, 2, 94);
+} 

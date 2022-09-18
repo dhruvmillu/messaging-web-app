@@ -1,0 +1,105 @@
+.manga-img {
+  height: 250px;
+  margin-right: 50px;
+}
+
+.comic-pg {
+  width: 70vw;
+}
+
+.profile-img {
+  border-radius: 100%;
+}
+.frame {
+  height: 70vh;
+  width: 80vh;
+}
+li {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  width: 50vw;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+  background-color: #290355;
+  padding: 20px;
+  border-radius: 20px;
+}
+li div{
+  display: block !important;
+}
+.manga-titles {
+  color: white;
+  font-size: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0 !important;
+  display: block !important;
+}
+.viewer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  color: aliceblue;
+  top: 50vh;
+  border: none;
+  outline: none;
+  padding: 30px;
+  width: 200px;
+  background: #18003f;
+  font-size: 30px;
+  margin: 40px;
+
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.pg-track {
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controls:hover {
+  background: #1e0b3d;
+  letter-spacing: 3px;
+}
+.mangalist {
+  max-width: 100vw;
+  display: block !important;
+}
+
+.manga-des {
+  overflow: auto;
+  max-height: 400px;
+  white-space:pre-line;
+}
+.search-media{
+  outline: none;
+  border:none;
+  width: calc(100% - 40px);
+  margin:20px;
+  padding: 10px 50px;
+  border-radius:10px ;
+  font-weight: 500;
+}
+
+.mangaContainer{
+  display: block !important;
+}
+
+.controlContainer{
+  display: flex !important;
+  justify-content: center;
+}
